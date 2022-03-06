@@ -21,7 +21,6 @@ describe("what-is-a-test", () => {
   });
 
   
-   
   describe("Message", () => {
     it("gives the name and height", () => {
       expect(message).toInclude(name);
