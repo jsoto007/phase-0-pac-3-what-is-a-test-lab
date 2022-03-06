@@ -1,5 +1,6 @@
 const name = "Susan";
 const height = 39;
-const message = `${name} is ${height} inches tall`;
+const gender = "Female";
+const message = `${name} is ${height} inches tall, and I am a ${gender}!`;
 
-module.exports = {name, height, message};
+module.exports = {name, height, gender, message};
